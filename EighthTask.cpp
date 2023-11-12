@@ -1,3 +1,12 @@
+/**********************************
+* Автор: Калинин Андрей           *
+* Лабораторная №7                 *
+* Дата: 19.11.2023                *
+* Название:Частота повторений     *
+* Вариант: 7                      *
+* https://onlinegdb.com/dOMwqke-o *
+**********************************/
+
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -64,6 +73,7 @@ int main() {
   
     cout << "Count of two letters " << secondLetter << " = " <<  letterCount;
   }
- 
+  
+  exampleFile.close();
   return 0;
 }
